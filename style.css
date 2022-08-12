@@ -1,0 +1,30 @@
+body {
+    background-image: url(backgraund.png);
+}
+
+@font-face {
+font-family: Valken1;
+src: url(valken1.ttf);
+}
+
+p {
+font-size: 37px;
+text-decoration: underline;
+color: rgb(5, 138, 12);
+font-family: Valken1;
+-webkit-text-stroke: 2px black;
+text-align: center;
+}
+
+.button {
+text-decoration: none;
+color: white;
+background-color: rgb(1, 71, 136);
+padding: 15px;
+border-radius: 13px;
+}
+
+a:hover {
+background-color: rgb(1, 6, 63);
+padding: 13px;
+}
